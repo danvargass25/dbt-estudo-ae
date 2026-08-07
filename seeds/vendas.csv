@@ -1,0 +1,11 @@
+id_venda,vendedor,regiao,data_venda,valor
+1,Ana,Sudeste,2026-01-05,1200.00
+2,Ana,Sudeste,2026-01-15,800.00
+3,Bruno,Sul,2026-01-10,1500.00
+4,Ana,Sudeste,2026-02-02,950.00
+5,Bruno,Sul,2026-02-08,700.00
+6,Carla,Nordeste,2026-02-12,2200.00
+7,Bruno,Sul,2026-02-20,1100.00
+8,Ana,Sudeste,2026-03-01,1800.00
+9,Carla,Nordeste,2026-03-05,500.00
+10,Carla,Nordeste,2026-03-18,1300.00
