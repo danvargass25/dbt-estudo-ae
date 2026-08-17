@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: sistema_vendas
+    schema: dbt_daniel
+    tables:
+      - name: vendas

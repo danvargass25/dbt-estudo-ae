@@ -2,7 +2,7 @@
 
 SELECT
     regiao,
-    DATE_TRUNC('month', data_venda) AS mes,
+    {{ truncar_mes('data_venda') }} AS mes,
     COUNT(id_venda) AS quantidade_vendas,
     SUM(valor_venda) AS receita_total
 FROM {{ ref('stg_vendas') }}
