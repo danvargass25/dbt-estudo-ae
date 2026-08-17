@@ -1,0 +1,27 @@
+version: 2
+
+models:
+  - name: stg_vendas
+    description: "Staging model com dados de vendas, tratados a partir do seed."
+    columns:
+      - name: id_venda
+        description: "Identificador único da venda."
+        tests:
+          - unique
+          - not_null
+
+      - name: nome_vendedor
+        description: "Nome do vendedor responsável pela venda."
+        tests:
+          - not_null
+
+      - name: regiao
+        description: "Região onde a venda ocorreu."
+        tests:
+          - accepted_values:
+              values: ['Sudeste', 'Sul', 'Nordeste']
+
+      - name: valor_venda
+        description: "Valor total da venda."
+        tests:
+          - not_null
