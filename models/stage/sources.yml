@@ -5,3 +5,8 @@ sources:
     schema: dbt_daniel
     tables:
       - name: vendas
+
+  - name: sistema_clientes
+    schema: dbt_daniel
+    tables:
+      - name: clientes_raw
